@@ -1,0 +1,7 @@
+<h1>詳細內容</h1>
+
+<%= @task.name %>
+<%= @task.due_date %>
+<%= simple_format(@task.note) %>
+
+<%= link_to "返回列表", tasks_path, class:'btn btn-primary' %>
